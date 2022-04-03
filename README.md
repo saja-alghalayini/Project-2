@@ -5,8 +5,7 @@ we built a responsive and dynamic quiz website that  requires the user
 to register and sign in to answer  quiz questions, the user can also 
 compare the answers with the correct answers, which was previously saved on local storage...
 
-
-![C:\Users\dell\Project-2\img\Layer_52.png]()
+![Layer_52 ](https://user-images.githubusercontent.com/100213822/161449919-aeee6974-cd06-4ccf-aeec-e6f67c997389.png)
 
 ## Our Group :
 
