@@ -1,7 +1,11 @@
+
+
+
+
 'use strict';
 let firstName=document.getElementById('fname');
 let firstNameError=document.getElementById('fname-error');
- let uesrName=document.getElementById('Uname');
+let uesrName=document.getElementById('Uname');
 let UesrNameError=document.getElementById('Uname-error');
 let Email=document.getElementById('email');
 let EmailError= document.getElementById('email-error');
@@ -23,7 +27,8 @@ localStorage.setItem('formData',array);
 } 
 
 /*Regestration Constructor */
-function regForm(fname,Uname,email,password,spassword){
+function regForm(fname,Uname,email,password,spassword)
+{
 this.fname=fname;
 this.FullName=fullName(this.fname);
 this.Uname=Uname;

@@ -5,16 +5,19 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Registration</title>
   <link rel="stylesheet" href="./stlyeRegistration.css" />
 </head>
 
 <body>
   <div class="container">
+
     <!-- <nav>
+
       <div id="navBar">
         <a href="" style="text-decoration:none; color: black; margin:0 25px " id="Home">Home</a>
-        <!-- ************** -->
+        
+        <-- ************** -->
     <!-- 
         <div class="dropdown">
           <span>Quizzes<i class="fa-solid fa-circle-chevron-down"></i></span>
@@ -32,31 +35,32 @@
         </div>
        
     </nav> -->
+    
     <div class="title"><b>Registration</b></div>
     <div class="content">
       <form action="#" id="regs_form">
         <div class="feilds">
           <div class="user-details">
             <div class="input-box">
-              <span class="details">Full Name</span>
+              <span class="details">  Full Name </span>
               <input type="text" name="fname" id="fname" placeholder="Enter your name" required>
               <span id="fname-error"></span>
             </div>
 
             <div class="input-box">
-              <span class="details">Username</span>
+              <span class="details"> Username </span>
               <input type="text" placeholder="Enter your username" name="Uname" id="Uname" required>
               <span id="Uname-error"></span>
             </div>
 
             <div class="input-box">
-              <span class="details">Email</span>
+              <span class="details"> Email </span>
               <input type="email" name="email" id="email" placeholder="Enter your email" required>
               <span id="email-error"></span>
             </div>
 
             <div class="input-box">
-              <span class="details">Password</span>
+              <span class="details"> Password </span>
               <input type="password" name="password" id="password" placeholder="Enter your Password"
                 pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
                 title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters"
@@ -64,18 +68,19 @@
             </div>
 
             <div class="input-box">
-              <span class="details">Confirmation Password</span>
+              <span class="details"> Confirmation Password </span>
               <input type="password" name="spassword" id="spassword" placeholder="Enter your Password again" required>
               <span id="password-error"></span>
             </div>
 
 
             <div id="message">
-              <p id="letter" class="invalid">A <b>lowercase</b> letter</p>
-              <p id="capital" class="invalid">A <b>capital (uppercase)</b> letter</p>
+              <p id="letter" class="invalid">A <b>lowercase</b> letter </p>
+              <p id="capital" class="invalid">A <b> capital (uppercase) </b> letter </p>
               <p id="number" class="invalid">A <b>number</b></p>
-              <p id="length" class="invalid">Minimum <b>8 characters</b></p>
- </div>
+              <p id="length" class="invalid"> Minimum <b>8 characters </b></p>
+            </div>
+            
               <label for="cars">Choose a Quiz:</label>
  
 <select id="cars" style="    margin-right: 54px;">
@@ -86,10 +91,14 @@
 </select>
 
           
-            <div class="button">
-              <button type="submit"><a id="link" target="_blank" >Regester</a></button>
-            </div>
 
+<div class="button input-box">
+  <input type="submit" value="Register"><a id="link" target="_blank" ></a>
+</div>
+
+
+            
+            
 
       </form>
     </div>

@@ -99,7 +99,7 @@ function checkAnswer(userAnswers){
 console.log('hi'+correctAnswerCount);
 function showNextQuestion(){
     if(XQuestion==jsQuiz.length-1){
-        nxtBtn.style.display='block'; // to show the next button that will take me to result page
+        nxtBtn.style.display='block'; //to show the next button that will take me to result page
         nxtBtn.href="./Result/indexResult.html";
     }
     else{
